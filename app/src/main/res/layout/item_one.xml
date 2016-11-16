@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大红袍"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/descriptionOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="这个很好"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/titleOne"
+        android:layout_alignLeft="@id/titleOne"
+        />
+
+    <TextView
+        android:id="@+id/sourceOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/titleOne"
+        android:text="买买买"
+        android:layout_below="@id/descriptionOne"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nicknameOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sourceOne"
+        android:layout_alignBottom="@id/sourceOne"
+        android:text="买卖买"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/create_timeOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nicknameOne"
+        android:layout_alignBottom="@id/nicknameOne"
+        android:text="16日17:33"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>

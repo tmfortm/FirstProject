@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大红袍"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginRight="100dp"
+        />
+    <TextView
+        android:id="@+id/descriptionTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="这个很好"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/titleTwo"
+        android:layout_alignLeft="@id/titleTwo"
+        android:layout_marginRight="100dp"
+        />
+
+    <TextView
+        android:id="@+id/sourceTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/titleTwo"
+        android:text="买买买"
+        android:layout_below="@id/descriptionTwo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/nicknameTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sourceTwo"
+        android:layout_alignBottom="@id/sourceTwo"
+        android:text="买卖买"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/create_timeTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nicknameTwo"
+        android:layout_alignBottom="@id/nicknameTwo"
+        android:text="16日17:33"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:id="@+id/wap_thumbTwo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/titleTwo"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/ic_launcher"
+        />
+</RelativeLayout>
